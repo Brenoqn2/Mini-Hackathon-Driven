@@ -114,9 +114,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 0px;
-    left: 0px;
     height: 80px;
+    width:90%;
 }
 
 footer .horizontalBar{
@@ -127,4 +126,12 @@ footer .horizontalBar{
 footer p{
     font-weight: 400;
     color: rgb(0,0,0,0.4)
+}
+
+@media screen and (max-width: 510px){
+    main{
+        width:300px;
+        height:200px;
+    }
+
 }
